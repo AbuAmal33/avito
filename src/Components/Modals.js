@@ -50,7 +50,7 @@ function Modals(props) {
                             return <Comments comment={comment} key={comment.id}/>
                         })}
                         <div className={'close_modal'} onClick={handleClick}>
-                            <h1>X</h1>
+                            <i className="fa fa-times" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
